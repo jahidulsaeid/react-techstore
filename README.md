@@ -1,5 +1,5 @@
 
-### Install The Project Tependency
+### Install The Project Dependency
 
 #### `npm install`
 
