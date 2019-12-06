@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
+import { ProductConsumer } from "../context";
 
 const HomePage = () => {
   return (
-    <div>
-      <h1>This is Home Page</h1>
-      
-    </div>
-  )
-}
+    <>
+      <ProductConsumer>{value => <h1>{value}</h1>}</ProductConsumer>
+    </>
+  );
+};
 
-export default HomePage
+export default HomePage;
